@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="common.css">
+    <title>
+        <article> 태그로 고객센터, 공지사항, FAQ 만들기
+    </title>
+    <style>
+        #page {
+            width: 980px;
+            margin: 0 auto;
+        }
+
+        #customer {
+            width: 300px;
+            height: 111px;
+            float: left;
+            margin-top: 20px;
+        }
+
+        #customer .title {
+            margin-left: 10px;
+            float: left;
+        }
+
+        #customer .more {
+            float: right;
+        }
+
+        #customer .phone {
+            margin-left: 10px;
+        }
+
+        #notice {
+            width: 300px;
+            height: 111px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+
+        #notice .title {
+            margin-left: 10px;
+            float: left;
+        }
+
+        #notice .more {
+            float: left;
+        }
+
+        #notice ul {
+            margin-top: 12px;
+            color: #666666;
+        }
+
+        #notice li {
+            margin-top: 5px;
+        }
+
+        #notice .subject {
+            float: left;
+            margin-left: 5px;
+        }
+
+        #faq {
+            width: 300px;
+            height: 111px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        .line {
+            margin-top: 25px;
+            border-top: solid 1px #cccccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="page">
+        <main>
+            <article id="customer">
+                <img src="img/title_customer.gif" alt="" class="title">
+                <img src="img/more.gif" alt="" class="title">
+                <img src="img/customer_phone.gif" alt="" class="phone">
+            </article>
+
+            <article id="notice">
+                <img src="img/title_notice.gif" alt="" class="title">
+                <img src="img/more.gif" alt="" class="more">
+                <div class="clear"></div>
+                <ul>
+                    <li>
+                        <div class="subject">새로운 상품의 출시를 알려드립니다.</div>
+                        <div class="date">2014-03-03</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="subject">새로운 상품의 출시를 알려드립니다.</div>
+                        <div class="date">2014-03-03</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="subject">새로운 상품의 출시를 알려드립니다.</div>
+                        <div class="date">2014-03-03</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="subject">새로운 상품의 출시를 알려드립니다.</div>
+                        <div class="date">2014-03-03</div>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </article>
+
+            <article id="faq">
+                <img src="img/banner_faq.gif" alt="">
+            </article>
+            <div class="clear"></div>
+            <div class="line"></div>
+        </main>
+    </div>
+</body>
+
+</html>
